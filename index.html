@@ -60,8 +60,7 @@
       <li><a href="#overview">Overview</a></li>
       <li><a href="#returns">Returns</a></li>
       <li><a href="#structures">Structures</a></li>
-      <li><a href="#thesis">Thesis</a></li>
-      <li><a href="#contact" class="nav__cta">Request Access</a></li>
+      <li><a href="#thesis" class="nav__cta">Thesis</a></li>
     </ul>
     <button class="nav__mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -351,7 +350,7 @@
       <div class="card-grid">
         <div class="chart-container reveal">
           <div class="chart-container__title">Option B: IRR by Death Benefit Split</div>
-          <div class="chart-container__subtitle">Structured — partial DB to buyer, $650K upfront to seller</div>
+          <div class="chart-container__subtitle">Structured — partial DB to buyer, $1.5M acquisition (same as Option A)</div>
           <div style="height:320px;position:relative;">
             <canvas id="optionBChart"></canvas>
           </div>
@@ -371,36 +370,36 @@
               <tbody>
                 <tr>
                   <td>$6,000,000</td>
-                  <td class="text-right text-green">219.8%</td>
-                  <td class="text-right">72.5%</td>
-                  <td class="text-right">42.6%</td>
-                  <td class="text-right">30.4%</td>
+                  <td class="text-right text-green">78.8%</td>
+                  <td class="text-right">41.7%</td>
+                  <td class="text-right">26.1%</td>
+                  <td class="text-right">17.6%</td>
                 </tr>
                 <tr>
-                  <td class="highlight">$8,000,000</td>
-                  <td class="text-right text-green">332.9%</td>
-                  <td class="text-right text-green highlight">93.1%</td>
-                  <td class="text-right">55.2%</td>
-                  <td class="text-right">42.1%</td>
+                  <td>$8,000,000</td>
+                  <td class="text-right text-green">108.8%</td>
+                  <td class="text-right text-green">57.9%</td>
+                  <td class="text-right">37.3%</td>
+                  <td class="text-right">26.2%</td>
                 </tr>
                 <tr>
-                  <td>$10,000,000</td>
-                  <td class="text-right text-green">437.1%</td>
-                  <td class="text-right text-green">110.5%</td>
-                  <td class="text-right">66.0%</td>
-                  <td class="text-right">48.6%</td>
+                  <td class="highlight">$10,000,000</td>
+                  <td class="text-right text-green">135.2%</td>
+                  <td class="text-right text-green highlight">71.5%</td>
+                  <td class="text-right">46.4%</td>
+                  <td class="text-right">33.1%</td>
                 </tr>
                 <tr>
                   <td>$12,000,000</td>
-                  <td class="text-right text-green">535.9%</td>
-                  <td class="text-right text-green">125.7%</td>
-                  <td class="text-right">75.6%</td>
-                  <td class="text-right">55.6%</td>
+                  <td class="text-right text-green">159.0%</td>
+                  <td class="text-right text-green">83.2%</td>
+                  <td class="text-right">54.1%</td>
+                  <td class="text-right">38.9%</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p style="font-size:var(--text-xs);color:var(--color-text-faint);margin-top:var(--space-4);line-height:1.6;">$8M DB allocation to buyer with $650K upfront seller payment — 93.1% IRR at 36 months. Higher DB splits amplify returns but increase exposure.</p>
+          <p style="font-size:var(--text-xs);color:var(--color-text-faint);margin-top:var(--space-4);line-height:1.6;">$10M DB allocation to buyer with $1.5M acquisition — 71.5% IRR at 36 months. Higher DB splits amplify returns but increase exposure.</p>
         </div>
       </div>
     </div>
@@ -461,27 +460,31 @@
           Option B — Structured
         </div>
         <div class="card__title">Shared Benefit Arrangement</div>
-        <div class="card__desc">Buyer funds premiums plus $650K upfront to seller, retaining a portion of the death benefit. Lower entry, structurally efficient.</div>
+        <div class="card__desc">Buyer acquires $10M of the $16M death benefit. Seller retains $6M. Same acquisition price as Option A — structurally efficient with partial exposure.</div>
         <div class="card__stats">
           <div class="card__stat-row">
-            <span class="card__stat-key">Upfront to Seller</span>
-            <span class="card__stat-val card__stat-val--accent">$650,000</span>
+            <span class="card__stat-key">Acquisition Price</span>
+            <span class="card__stat-val card__stat-val--accent">$1,500,000</span>
           </div>
           <div class="card__stat-row">
-            <span class="card__stat-key">Buyer DB (Illustrative)</span>
-            <span class="card__stat-val">$8,000,000</span>
+            <span class="card__stat-key">Buyer DB</span>
+            <span class="card__stat-val">$10,000,000</span>
+          </div>
+          <div class="card__stat-row">
+            <span class="card__stat-key">Seller Retains</span>
+            <span class="card__stat-val">$6,000,000</span>
           </div>
           <div class="card__stat-row">
             <span class="card__stat-key">36-Month IRR</span>
-            <span class="card__stat-val card__stat-val--green">93.1%</span>
+            <span class="card__stat-val card__stat-val--green">71.5%</span>
           </div>
           <div class="card__stat-row">
             <span class="card__stat-key">60-Month IRR</span>
-            <span class="card__stat-val">42.1%</span>
+            <span class="card__stat-val">33.1%</span>
           </div>
           <div class="card__stat-row">
             <span class="card__stat-key">Multiple on Capital</span>
-            <span class="card__stat-val card__stat-val--accent">4.7x</span>
+            <span class="card__stat-val card__stat-val--accent">4.0x</span>
           </div>
         </div>
       </div>
@@ -736,39 +739,7 @@
 </section>
 
 
-<!-- ================================================
-     CONTACT / CTA
-     ================================================ -->
-<div class="section-divider"></div>
 
-<section class="cta-section" id="contact">
-  <div class="container container--narrow">
-    <div class="section-header reveal" style="text-align:center;margin-bottom:var(--space-8);">
-      <div class="section-label" style="text-align:center;">Get Started</div>
-      <h2 class="section-title" style="margin: 0 auto var(--space-4);">Request Access to the Data Room</h2>
-      <p class="section-desc" style="margin: 0 auto;">This is a confidential offering available to qualified institutional and accredited investors. Contact the deal team to begin due diligence.</p>
-    </div>
-
-    <div style="text-align:center;" class="reveal">
-      <a href="mailto:deal-team@institutional-ls.com" class="cta-btn" target="_blank" rel="noopener noreferrer">Contact Deal Team</a>
-    </div>
-
-    <div class="contact-grid reveal">
-      <div class="contact-item">
-        <div class="contact-item__label">Email</div>
-        <div class="contact-item__value"><a href="mailto:deal-team@institutional-ls.com" target="_blank" rel="noopener noreferrer">deal-team@institutional-ls.com</a></div>
-      </div>
-      <div class="contact-item">
-        <div class="contact-item__label">Phone</div>
-        <div class="contact-item__value">+1 (555) 019-8372</div>
-      </div>
-      <div class="contact-item">
-        <div class="contact-item__label">Data Room</div>
-        <div class="contact-item__value"><a href="https://secure-dataroom.com/gabriel-16m" target="_blank" rel="noopener noreferrer">secure-dataroom.com/gabriel-16m</a></div>
-      </div>
-    </div>
-  </div>
-</section>
 
 
 <!-- ================================================
@@ -1018,7 +989,7 @@ var surface = '#181b23';
       datasets: [
         {
           label: '24 mo',
-          data: [219.8, 332.9, 437.1, 535.9],
+          data: [78.8, 108.8, 135.2, 159.0],
           borderColor: green,
           backgroundColor: greenDim,
           tension: 0.35,
@@ -1029,7 +1000,7 @@ var surface = '#181b23';
         },
         {
           label: '36 mo',
-          data: [72.5, 93.1, 110.5, 125.7],
+          data: [41.7, 57.9, 71.5, 83.2],
           borderColor: gold,
           backgroundColor: goldDim,
           tension: 0.35,
@@ -1040,7 +1011,7 @@ var surface = '#181b23';
         },
         {
           label: '60 mo',
-          data: [30.4, 42.1, 48.6, 55.6],
+          data: [17.6, 26.2, 33.1, 38.9],
           borderColor: '#8b8d95',
           backgroundColor: 'rgba(139,141,149,0.1)',
           tension: 0.35,
